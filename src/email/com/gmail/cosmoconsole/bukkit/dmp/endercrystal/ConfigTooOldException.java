@@ -5,6 +5,6 @@ package email.com.gmail.cosmoconsole.bukkit.dmp.endercrystal;
  */
 public class ConfigTooOldException extends Exception {
 
-	private static final long serialVersionUID = 6955844502576959492L;
+    private static final long serialVersionUID = 6955844502576959492L;
 
 }

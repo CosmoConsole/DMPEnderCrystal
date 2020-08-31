@@ -1,0 +1,27 @@
+#     ....    .   .   ....
+#    .   .   .. ..   .   .
+#   .   .   . . .   ....
+#  .   .   .   .   .
+# ....    .   .   .      
+# DeathMessagesPrime Ender Crystal Support Configuration File
+# SAVE THIS FILE AS UTF-8!!!! (without BOM)
+# Your text editor should support it.
+
+# Configuration version, do not change this unless you want your config to be 
+# reset.
+config-version: 2
+
+# Whether to track the player that placed the ender crystal as the killer
+# rather than the player that hit the ender crystal (causing it to explode).
+track-placer-not-hitter: true
+
+# The death messages are under the DeathMessagesPrime config, and under
+# natural.EnderCrystalKill and natural.EnderCrystalSuicide.
+
+# Whether to use bed kill/suicide messages and track bed kills.
+use-bed-messages: false
+
+# Same as track-placer-not-hitter, but for beds.
+track-bed-placer-not-hitter: true
+
+# Bed deaths are under natural.BedKill and natural.BedSuicide.
